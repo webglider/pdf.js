@@ -146,6 +146,10 @@
      * here; hence why we still have two versions of this particular image. */
     --loading-icon: url(images/loading-dark.svg);
   }
+
+  .page {
+    filter: invert(64%) contrast(250%) brightness(80%) hue-rotate(180deg);
+  }
 }
 
 @media screen and (forced-colors: active) {
